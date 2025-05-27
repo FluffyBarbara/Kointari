@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Финансовый учёт</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="form">
+      <input type="number" id="amount" placeholder="Введите сумму">
+      <input type="text" id="comment" placeholder="Введите комментарий">
+      <button class="save-btn" onclick="saveEntry()">💾 СОХРАНИТЬ</button>
+      <div class="info">
+        <div class="info-block">
+          <label>Заработок за серию:</label>
+          <span id="seriesSum">0$</span>
+        </div>
+        <div class="info-buttons">
+          <button class="secondary-btn" onclick="newSeries()">Новая серия</button>
+          <button class="secondary-btn" onclick="resetAll()">Сбросить</button>
+          <button class="secondary-btn" onclick="openAuthorInfo()">ℹ️ Об авторе</button>
+        </div>
+        <div class="info-block">
+          <label>Заработано всего:</label>
+          <span id="totalSum">0$</span>
+        </div>
+      </div>
+    </div>
+    <div class="log" id="log"></div>
+  </div>
+
+  <!-- Модальное окно с информацией об авторе -->
+  <div id="authorModal" class="modal" style="display:none;">
+    <div class="modal-content">
+      <span class="close" onclick="closeAuthorInfo()">&times;</span>
+      <p><strong>Авторские права принадлежат:</strong><br>
+      Fluffy Barbara (Гонцовский Никита Русланович)</p>
+      <p>© Fluffy Barbara (Гонцовский Никита Русланович)</p>
+      <p>Версия скрипта: 1.0</p>
+      <p>Последнее обновление скрипта: 28.05.2025</p>
+      <p>Следите за подробной информацией в Discord сервере:<br>
+        <a href="https://discord.gg/QxNGkTxgx2" target="_blank">https://discord.gg/QxNGkTxgx2</a>
+      </p>
+      <p>По поводу предложений, улучшений пишите в Discord: <strong>fluffybarbara</strong></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
