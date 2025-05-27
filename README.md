@@ -5,7 +5,7 @@
 
 ---
 
-![Дизайн Kointari](https://i.yapx.ru/214300874.jpg)
+![Дизайн Kointari](https://i.postimg.cc/0NCCJNt9/image.png)
 
 ---
 
