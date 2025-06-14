@@ -5,7 +5,7 @@
 
 ---
 
-![Дизайн Kointari](https://i.postimg.cc/0NCCJNt9/image.png)
+![Дизайн Kointari](https://i.postimg.cc/v8Cwdrvp/image.png)
 
 ---
 
